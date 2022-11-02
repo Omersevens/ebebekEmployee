@@ -12,15 +12,15 @@ public class Calisan {
         this.hireYear = hireYear;
     }
 
-    void printEmployee() {	// Calisanin maas bilgilerini yazdiran method.
+    void print() {	// Calisanin maas bilgilerini yazdiran method.
         System.out.println("New Employee!!");
-        System.out.println("Elemanin ismi: " + this.name);
-        System.out.println("Elemanin normal maasi: " + this.salary);
-        System.out.println("Elemanin haftalik calisma saati: " + this.workHours);
-        System.out.println("Elemanin ise giris senesi: " + this.hireYear);
-        System.out.println("Elemanin vergisi: " + tax());
-        System.out.println("Elemanin bonuslari: " + bonus());
-        System.out.println("Elemanin yillik maas artisi: " + raiseSalary());
+        System.out.println("calisanin ismi: " + this.name);
+        System.out.println("calisanin normal maasi: " + this.salary);
+        System.out.println("calisanin haftalik calisma saati: " + workHours);
+        System.out.println("calisanin ise giris senesi: " + this.hireYear);
+        System.out.println("calisanin vergisi: " + tax());
+        System.out.println("calisanin bonuslari: " + bonus());
+        System.out.println("calisanin yillik maas artisi: " + raiseSalary());
         System.out.println("Vergi ve Bonuslar ile birlikte maas : " + toplam());
         System.out.println("\tToplam maas: " + (this.salary + toplam()));
 
